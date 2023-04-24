@@ -2,9 +2,9 @@
     --white: #edeff7;
     --background-secundary: #e1e2be;
     
-    --test-color-principal: #edeff7;
+    --test-color-principal: #ffffff;
     --test-color-principal1: #030abc;
-    --test-color-principal2: #020873;
+    --test-color-principal2: #ffffff;
 
     --title-principal-size: 16px;
     --title-secundary-size: 14px;
@@ -31,6 +31,8 @@ nav {
     position: absolute;
     padding: 8px;
     padding-left: 24px;
+    width: 15%;
+    height: auto;
 }
 
 nav li {
@@ -49,7 +51,7 @@ nav a {
 
 body {
     font-family: var(--montserrat);
-    background: linear-gradient(black, #888888);
+    background: #101728;
 }
 
 main {
@@ -144,7 +146,10 @@ main {
     background-position: top 1.25rem left 2.5rem;
 
     padding: 2rem 0 2rem 5rem;
-    width: 100% 
+    width: 100%;
+}
+img.your_project{
+    border-radius: 5px;
 }
 
 .text_projects {
