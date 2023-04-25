@@ -27,6 +27,15 @@ body {
   
 }
 
+main{
+  width: 58vh;
+  height: 55vh;  
+  display: flex;
+  flex-basis: 380px;
+  margin-top: 10%;
+  flex-direction: row;
+}
+
 #area
 {
   left:50%;
@@ -39,6 +48,8 @@ body {
 { 
   display:block;
 }
+/* corpo do formulario */
+
 fieldset
 {   
   position: absolute;
@@ -156,14 +167,6 @@ a.linkum{
 }
 a.linkum:hover{
   color: #4b4747;
-}
-main{
-  width: 58vh;
-  height: 55vh;  
-  display: flex;
-  flex-basis: 380px;
-  margin-top: 10%;
-  flex-direction: row;
 }
 /*start menu*/
 nav {
