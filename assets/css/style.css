@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&family=Open+Sans:wght@300;400;500;600&display=swap');
 
-* {
+*{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -210,7 +210,7 @@ body {
     color: #000000b6;
 }
 
-.continue-button button {
+.send-button button {
     width: 100%;
     margin-top: 2.5rem;
     border: none;
@@ -221,17 +221,42 @@ body {
     
 }
 
-.continue-button button:hover {
+.send-button button:hover {
     background-color: #0011ff;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
-.continue-button button a {
+.send-button button a {
     text-decoration: none;
     font-size: 0.93rem;
     font-weight: 500;
     color: #fff;
 }
+
+textarea{
+    border-radius: 10px;
+    display: flex;
+    margin-bottom: 1.1rem;
+    margin-right: 1rem;
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    box-shadow: 1px 1px 6px #000000;
+    font-size: 0.8rem;
+    width: 100%;
+}
+.input-mensage label{
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #000000b7;
+    
+}
+.input-mensage textarea::placeholder {
+    color: #0000005e;
+}
+.input-mensage textarea:hover{
+    background-color: #00000000;
+}
+
 
 @media screen and (max-width: 1330px) {
     .dropdown.hover{
@@ -248,7 +273,9 @@ body {
         width: 100%;
         border-radius: 20px 20px 20px 20px;
     }
-    
+    .send-button{
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 1064px) {
@@ -257,13 +284,14 @@ body {
     }
     .container {
         width: 90%;
-        height: 55%;      
+        height: 70%;  
+        margin-top: 7rem;    
     }
     .input-group {    
         flex-direction: column;
         z-index: 5;
         padding-right: 5rem;
-        max-height: 30rem;
+        max-height: 40rem;
         overflow-y: auto;
         flex-wrap: nowrap;
     }
@@ -281,5 +309,10 @@ body {
     }
     .gender-input {
         margin-top: 0.5rem;
+    }
+    .send-button{
+        max-width: 85%;
+        display: flex;
+        margin-bottom: 5px;
     }
 }
