@@ -22,7 +22,7 @@ body {
     width: 230px;
     display: inline-block;
     margin-top: -35.75rem;
-    margin-left: -13.5rem;
+    margin-left: -9%;
     position: fixed;
     float: right;
     font-family: 'Inter', sans-serif;
@@ -233,6 +233,9 @@ body {
 }
 
 @media screen and (max-width: 1330px) {
+    .dropdown.hover{
+        margin-left: -22%;
+    }
     .form-image {
         display: none;
     }
