@@ -21,10 +21,10 @@ body {
 .dropdown {
     width: 230px;
     display: inline-block;
-    margin-top: -37rem;
+    margin-top: -35.75rem;
     margin-left: -9%;
     position: fixed;
-    float: left;
+    float: right;
     font-family: 'Inter', sans-serif;
     transition: all 2s; 
       
