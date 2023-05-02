@@ -256,7 +256,13 @@ textarea{
 .input-mensage textarea:hover{
     background-color: #00000000;
 }
-
+p{
+    font-size: 20px;
+    text-align: justify;
+    margin-top: 10px;
+    margin-left: -15%;
+    margin-right: -15%;
+}
 
 @media screen and (max-width: 1330px) {
     .dropdown.hover{
@@ -315,11 +321,7 @@ textarea{
         display: flex;
         margin-bottom: 5px;
     }
+
 }
 
-p{
-    font-size: 20px;
-    text-align: justify;
-    margin-top: 10px;
-    
-}
+
