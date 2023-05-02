@@ -1,13 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Thanks!</title>
 </head>
+<header>   
+    <nav class="dropdown hover">
+        
+        <a href="#" class="primeiro-item">≣</a>
+        <ul>
+         
+          <li><a href="index.html" title="Home">Home</a></li>
+          <li><a href="index.html" title="Projects">Projects</a></li>
+          <li><a href="index.html" title="Colaboration">Colaboration</a></li>
+          <li><a href="form.html" title="Contact">Contact</a></li>
+        </ul>
+      
+      </nav>
+</header>
+
 <body>
-    <h1>Obrigado</h1>
-    
+    <div class="container">
+        <div class="form-image">
+            <img src="assets/img/arteproject.png" alt="">
+        </div>
+        <div class="form">
+            <form action="https://formsubmit.co/focus.otfuture@gmail.com" method="POST">
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Contact us</h1>
+                    </div>  
+                </div>
+
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="firstname">First Name</label>
+                        <input id="firstname" type="text" name="firstname" placeholder="Your first name" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="lastname">Last Name</label>
+                        <input id="lastname" type="text" name="lastname" placeholder="Your last name" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="email">E-mail</label>
+                        <input id="email" type="email" name="email" placeholder="Your e-mail" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="number">Number phone</label>
+                        <input id="number" type="tel" name="number" placeholder="(xx) xxxx-xxxx" required>
+                    </div>
+                    
+                    <div class="input-mensage">
+                        <label for="mensage-legend">Leave a message for quote</label>
+                        <textarea name="mensage" id="mensage-box" cols="75" rows="10" placeholder="Express your idea"></textarea>
+                    </div>  
+                </div>                               
+                
+                <input type="hidden" name="_next" value="https://focusonthefuture.github.io/site_empresa/thanks.html">
+                
+                <div class="send-button">
+                    <button><a href="">Send</a></button>
+                </div>
+            </form>
+        </div>
+    </div>
 </body>
+
 </html>
