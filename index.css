@@ -147,7 +147,7 @@ main {
     padding: 2rem;
 }
 
-.your_project {
+.your_project1 {
     max-width: 350px;
 
     box-sizing: border-box;
@@ -159,7 +159,7 @@ main {
     width: 100%;
 }
 
-img.your_project{
+img.your_project1{
     border-radius: 5px;
 }
 
@@ -278,12 +278,15 @@ nav a:hover {
 
   .baloon1:hover {
     font-size: 1.1rem;
+    box-shadow: 0px 0px 10px #000000;
   }
 
   .baloon2:hover {
     font-size: 1.1rem;
+    box-shadow: 0px 0px 8px #000000;
   }
 
   .your_project:hover {
     font-size: 1.1rem;
+    box-shadow: 0px 0px 10px #000000;
   }
