@@ -129,12 +129,13 @@ body {
     box-shadow: 40px 20px 90px 1px #0011ff;
 }
 
-.form-header {
+.thanks-header {
+    margin-left: -15%;
     margin-bottom: 3rem;
     display: flex;
     justify-content: space-between;
 }
-.form-header h1::after {
+.thanks-header h1::after {
     content: '';
     display: block;
     width: 5rem;
@@ -256,7 +257,13 @@ textarea{
 .input-mensage textarea:hover{
     background-color: #00000000;
 }
-
+p{
+    font-size: 20px;
+    text-align: justify;
+    margin-top: 10px;
+    margin-left: -15%;
+    margin-right: -15%;
+}
 
 @media screen and (max-width: 1330px) {
     .dropdown.hover{
@@ -281,10 +288,11 @@ textarea{
 @media screen and (max-width: 1064px) {
     .dropdown.hover{
         margin-left: 1%;
+
     }
     .container {
         width: 90%;
-        height: 70%;  
+        height: 85%;  
         margin-top: 7rem;    
     }
     .input-group {    
@@ -304,9 +312,6 @@ textarea{
     .gender-group {
         flex-direction: column;
     }
-    .gender-title h6 {
-        margin: 0;
-    }
     .gender-input {
         margin-top: 0.5rem;
     }
@@ -314,12 +319,6 @@ textarea{
         max-width: 85%;
         display: flex;
         margin-bottom: 5px;
-    }
-}
-
-p{
-    font-size: 20px;
-    text-align: justify;
-    margin-top: 10px;
-    
+    }   
+    .form 
 }
