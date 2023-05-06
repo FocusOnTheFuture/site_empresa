@@ -187,11 +187,31 @@ img.your_project1{
     text-align: center;
 }
 
-.perfil1 {
-    position: relative;
-    width: 26%;
+.perfil {
+    position: absolute;
+    width: 5%;
     border: 3px solid;
     border-radius: 100%;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
+.borda {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.borda p {
+    position: relative;
+    border-top: .2rem solid var(--test-color-principal1);
+    border-bottom: .2rem solid var(--test-color-principal1);
+    /* border-left: .2rem solid var(--background-secundary); */
+    /* border-right: .2rem solid var(--background-secundary); */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: aboutSpinner 8s linear infinite;
 }
 
 .text_perfil1 {
@@ -203,13 +223,6 @@ img.your_project1{
     display: relative;
     flex-direction: column;
     text-align: center;
-}
-
-.perfil2 {
-    position: relative;
-    width: 26%;
-    border: 3px solid;
-    border-radius: 100%;
 }
 
 .text_perfil2 {
@@ -289,4 +302,13 @@ nav a:hover {
   .your_project:hover {
     font-size: 1.1rem;
     box-shadow: 0px 0px 10px #000000;
+  }
+
+
+  /* effects  */
+
+  @keyframes aboutSpinner {
+    100% {
+        transform: translate(0%, 0%) rotate(360deg);
+    }
   }
