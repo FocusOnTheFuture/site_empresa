@@ -16,6 +16,8 @@ header {
     background-color: var(--white);
     border-bottom: 1px solid var(--white);
     border-radius: 16px;
+    width: 940px;
+    margin: 0 auto;
 }
 
 section {
@@ -23,18 +25,18 @@ section {
 }
 
 nav {
-    width: 100%;
+    width: 940px;
+    margin: 0 auto;
     display: flex;
     box-sizing: border-box;
     align-items: center;
-    justify-content: center;
+    justify-content: right;
     height: 168px;
 }
 
 .logo {
     position: absolute;
-    padding-left: 3rem;
-    padding-top: 2.5rem;
+    margin-top: 2.5rem;
     width: 12%;
     height: auto;
 }
@@ -116,7 +118,13 @@ main {
 }    
 
 .page_projects {
-    padding: 3em;
+    width: 940px;
+    margin: 0 auto;
+    padding: 3rem;
+}
+
+.all_projects {
+    padding: 1.5rem 0rem;
     width: 940px;
     margin: 0 auto;
     display: flex;
@@ -125,37 +133,51 @@ main {
     border-bottom: 1px solid black;
 }
 
+.baloon1 {
+    padding-bottom: 1.1rem;
+    margin-bottom: 1.2rem;
+}
+
 .projeto_cordel {
-    max-width: 350px;
+    width: 350px;
+    height: 250px;
 
     box-sizing: border-box;
 
     background-repeat: no-repeat;
     background-position: top 1.25rem left 2.5rem;
 
-    padding: 2rem;
+    padding-bottom: 1.1rem;
+}
+
+.baloon2 {
+    margin-bottom: 1.2rem;
 }
 
 .projeto_apeperia {
-    max-width: 350px;
-
+    width: 350px;
+    height: 250px;
     box-sizing: border-box;
 
     background-repeat: no-repeat;
     background-position: top 1.25rem left 2.5rem;
 
-    padding: 2rem;
+    padding-bottom: 1.1rem;
+}
+
+.your_project {
+    padding-bottom: 1.1rem;
 }
 
 .your_project1 {
     max-width: 350px;
-
+ 
     box-sizing: border-box;
 
     background-repeat: no-repeat;
     background-position: top 1.25rem left 2.5rem;
 
-    padding: 2rem;
+    padding-bottom: 1.1rem;
     width: 100%;
 }
 
@@ -168,7 +190,7 @@ img.your_project1{
 }
 
 .page_collaboration {
-    padding: 3em;
+    padding: 0rem 3rem 1.5rem 3rem;
     width: 940px;
     margin: 0 auto;
     display: flex;
@@ -177,19 +199,20 @@ img.your_project1{
 }
 
 .all_apresentation {
-    padding: 3rem;
+    padding: 1.5rem 0rem 1.5rem 0rem;
     display: flex;
 }
 
 .apresentation1 {
-    display: relative;
+    /* display: relative; */
     flex-direction: column;
     text-align: center;
+    padding: 0rem 1.5rem;
 }
 
 .perfil {
     position: absolute;
-    width: 5%;
+    width: 105px;
     border: 3px solid;
     border-radius: 100%;
     box-sizing: border-box;
@@ -199,11 +222,11 @@ img.your_project1{
 .borda {
     display: flex;
     justify-content: center;
-    margin-bottom: 5px;
+    margin-bottom: 1rem;
 }
 
 .borda p {
-    position: relative;
+    /* position: absolute; */
     border-top: .2rem solid var(--test-color-principal1);
     border-bottom: .2rem solid var(--test-color-principal1);
     /* border-left: .2rem solid var(--background-secundary); */
@@ -216,13 +239,14 @@ img.your_project1{
 
 .text_perfil1 {
     display: relative;
-    text-align: center;
+    text-align: justify;
 }
 
 .apresentation2 {
     display: relative;
     flex-direction: column;
     text-align: center;
+    padding: 0rem 1.5rem;
 }
 
 .text_perfil2 {
@@ -292,16 +316,19 @@ nav a:hover {
   .baloon1:hover {
     font-size: 1.1rem;
     box-shadow: 0px 0px 10px #000000;
+    border-radius: 8px;
   }
 
   .baloon2:hover {
     font-size: 1.1rem;
     box-shadow: 0px 0px 8px #000000;
+    border-radius: 8px;
   }
 
   .your_project:hover {
     font-size: 1.1rem;
     box-shadow: 0px 0px 10px #000000;
+    border-radius: 8px;
   }
 
 
