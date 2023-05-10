@@ -13,15 +13,15 @@
 }
 
 header {
-    background-color: var(--white);
     border-bottom: 1px solid var(--white);
     border-radius: 16px;
     width: 940px;
     margin: 0 auto;
+    background-color: transparent;
 }
 
 section {
-    background-color: var(--background-secundary);
+    /* background-color: var(--background-secundary); */
 }
 
 nav {
@@ -42,7 +42,7 @@ nav {
 }
 
 nav ul {
-    background-color: rgb(71, 55, 55);
+    /* background-color: rgb(71, 55, 55); */
     border-radius: 16px;
     padding: 8px;
 }
@@ -63,18 +63,25 @@ nav a {
 
 body {
     font-family: var(--montserrat);
-    background: var(--white);
+    /* background: var(--white); */
 }
 
 main {
     display: block;
 }
 
+.all_page {
+    background-image: url(./imagens/background2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
 .homepage{
     padding: 3em;
     width: 940px;
     margin: 0 auto;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid var(--white);
 }
 
 #container {
@@ -91,6 +98,7 @@ main {
     color: black;
     padding-right: 1.5rem;
     text-align: center;
+    color: var(--background-secundary);
   }    
 
 .title {
@@ -104,11 +112,13 @@ main {
     padding-bottom: 1.5rem;
     width: 100%;
     display: inline-block;
+    color: var(--background-secundary);
 }    
 
 .text {
     font-size: 1.5rem;
     padding-bottom: 16px;
+    color: var(--background-secundary);
 }    
 
 .link_projects {
@@ -130,7 +140,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid var(--white);
 }
 
 .baloon1 {
@@ -187,6 +197,7 @@ img.your_project1{
 
 .text_projects {
     text-align: center;
+    color: var(--background-secundary);
 }
 
 .page_collaboration {
@@ -196,6 +207,7 @@ img.your_project1{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    border-bottom: 1px solid var(--white);
 }
 
 .all_apresentation {
@@ -240,6 +252,7 @@ img.your_project1{
 .text_perfil1 {
     display: relative;
     text-align: justify;
+    color: var(--background-secundary);
 }
 
 .apresentation2 {
@@ -252,10 +265,11 @@ img.your_project1{
 .text_perfil2 {
     display: relative;
     text-align: center;
+    color: var(--background-secundary);
 }
 
 footer {
-    background: rgb(76, 76, 76);
+    /* background: rgb(76, 76, 76); */
     text-align: center;
     padding: 40px 0;
 }
@@ -263,6 +277,7 @@ footer {
 .copyright {
     font-size: 13px;
     padding-top: 1.25rem;
+    color: var(--background-secundary);
   }
 
 
@@ -296,7 +311,7 @@ nav a:hover {
     font-family: 'open_sansregular';
     color: #ffffff;
     padding: 0.8em 1.2em;
-    background: #000000;
+    /* background: #000000; */
     text-transform: uppercase;
   }
   .btn.elastic:hover, .btn.elastic:focus, .btn.elastic:active {
@@ -315,19 +330,19 @@ nav a:hover {
 
   .baloon1:hover {
     font-size: 1.1rem;
-    box-shadow: 0px 0px 10px #000000;
+    box-shadow: 0px 0px 10px whitesmoke;
     border-radius: 8px;
   }
 
   .baloon2:hover {
     font-size: 1.1rem;
-    box-shadow: 0px 0px 8px #000000;
+    box-shadow: 0px 0px 8px whitesmoke;
     border-radius: 8px;
   }
 
   .your_project:hover {
     font-size: 1.1rem;
-    box-shadow: 0px 0px 10px #000000;
+    box-shadow: 0px 0px 10px whitesmoke;
     border-radius: 8px;
   }
 
