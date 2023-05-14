@@ -78,46 +78,66 @@ main {
 }
 
 .homepage{
-    padding: 3em;
+    padding: 3em 0em 3em 0em;
     width: 940px;
     margin: 0 auto;
     border-bottom: 1px solid var(--white);
 }
 
 #container {
+    padding-top: 2rem;
     display: flex;
     text-align: center;
+    align-items: center;
 }    
 
+.fingerprint {
+    width: 10.2%;
+    vertical-align: bottom;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
 .banner {
-    width: 30%;
+    background-size: cover;
     opacity: 90%;
+    width: 30%;
 }
 
 .overwrite {
-    color: black;
     padding-right: 1.5rem;
     text-align: center;
     color: var(--background-secundary);
   }    
 
 .title {
-    font-size: 3rem;
+    font-size: 6rem;
     font-weight: bold;
-    padding-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+    padding-right: 0px;
 }    
+
+h1 .subtitle {
+    font-size: 3rem;
+    padding-bottom: 2rem;
+    padding-right: 0px;
+    width: 100%;
+    display: inline-block;
+    text-decoration: underline;
+}
 
 .subtitle {
     font-size: 3rem;
-    padding-bottom: 1.5rem;
+    padding-bottom: 2rem;
+    padding-right: 0px;
     width: 100%;
     display: inline-block;
     color: var(--background-secundary);
-}    
+}
 
 .text {
     font-size: 1.5rem;
-    padding-bottom: 16px;
+    padding-bottom: 1.5rem;
     color: var(--background-secundary);
 }    
 
@@ -283,6 +303,12 @@ footer {
 
 /* effects */
 
+.fingerprint:hover {
+    /* box-shadow: 0 8px 2px -2px grey; */
+    border-radius: 100%;
+    padding: 1px;
+}
+
 nav a:hover {
     color: #c78c19;
     text-decoration: underline;
@@ -292,7 +318,7 @@ nav a:hover {
     opacity: 0.6;
   }
 
-  .btn {
+.btn {
     position: relative;
     display: inline-block;
     cursor: pointer;
@@ -305,7 +331,6 @@ nav a:hover {
     border-radius: 10px;
   }
   .btn.elastic {
-    
     transition: all 0.6s cubic-bezier(0.65, -0.25, 0.25, 1.95);
     font-size:0.9em;
     font-family: 'open_sansregular';
@@ -314,6 +339,7 @@ nav a:hover {
     /* background: #000000; */
     text-transform: uppercase;
   }
+
   .btn.elastic:hover, .btn.elastic:focus, .btn.elastic:active {
     
     letter-spacing: 0.220rem;
@@ -355,3 +381,4 @@ nav a:hover {
     }
   }
 
+/* light mode */
