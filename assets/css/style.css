@@ -351,9 +351,20 @@ textarea{
 @media screen and (max-width: 440px) {
     .dropdown.hover{
         margin-left: 1%;
-        margin-top: -35.5rem;
+        margin-top: -28rem;
        
     }
+    .dropdown a {
+        display: block;
+        padding: 0 0 0 10px;
+        text-decoration: none;
+        line-height: 40px;
+        font-size: 2em;
+        font-weight: bold;
+        color: #ffffff;
+        background-color: #000000;
+        
+      }
     .container {
         width: 90%;
         height: 56rem;  
