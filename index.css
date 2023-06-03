@@ -37,7 +37,7 @@ nav {
 .logo {
     position: absolute;
     margin-top: 2.5rem;
-    width: 12%;
+    width: 300px;
     height: auto;
 }
 
@@ -382,3 +382,346 @@ nav a:hover {
   }
 
 /* light mode */
+
+@media screen and (max-width: 480px) {
+    header, .nav, .homepage, .page_projects, .all_projects, .page_collaboration {
+        width: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .logo {
+        position: static;
+        width: 60%;
+        margin-top: 0;
+    }
+
+    nav {
+        height: auto;
+    }
+
+    .homepage {
+        padding: 1.5em 8px 1.5em 8px;
+    }
+
+    .overwrite {
+        padding-right: 0;
+        padding-bottom: 1rem;
+    }
+
+    .fingerprint {
+        padding: 5px 5px 0px 5px;
+    }
+    
+    .title, h1 .subtitle {
+        font-size: 2rem;
+    }
+
+    h1 .subtitle {
+        padding-bottom: 0.5rem;
+    }
+
+    .text {
+        padding-bottom: 0.5rem;
+        font-size: 16px;
+    }
+
+    #container {
+    padding-top: 1rem;
+    display: inline-block;
+    }
+
+    .banner {
+        width: 100%;
+    }
+
+    nav {
+        display: inline;
+    }
+    
+    nav ul {
+        display: flex;
+        justify-content: space-around;
+        padding: 0 0 8px 0;
+    }
+
+    nav li {
+        padding: 8px;
+    }
+
+    nav a {
+        font-size: 16px;
+    }
+    
+    .page_projects {
+        padding: 1.5rem;
+    }
+
+    .all_projects {
+        padding: 0 0 8px 0;
+    }
+
+    .page_projects .subtitle {
+        text-align: center;
+        padding-bottom: 1.5rem;
+    }
+
+    .baloon2 {
+        padding-bottom: 1.1rem;
+    }
+
+    .projeto_cordel, .projeto_apeperia, .your_project1 {
+        width: 90vw;
+    }
+
+    .page_collaboration .subtitle {
+        width: auto;
+        padding-bottom: 1.5rem;
+    }
+
+    .all_apresentation {
+        padding: 0;
+        display: inline-block;
+    }
+
+    .apresentation1, .apresentation2 {
+        padding: 0 0 1rem 0;
+    }
+
+    footer {
+        padding: 1.5rem 0;
+    }
+
+    footer img {
+        max-width: 35%;
+    }
+
+    .copyright {
+        padding-top: 0.75rem;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    header, .nav, .homepage, .page_projects, .all_projects, .page_collaboration {
+        width: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .logo {
+        position: static;
+        width: 60%;
+        max-width: 300px;
+        margin-top: 0;
+    }
+
+    nav {
+        height: auto;
+    }
+
+    .homepage {
+        padding: 1.5em 8px 1.5em 8px;
+    }
+
+    .overwrite {
+        padding-right: 0;
+        padding-bottom: 1rem;
+    }
+
+    #container .overwrite {
+        margin: 0 8px;
+    }
+
+    h1 .title {
+        font-size: 3rem;
+    }
+
+    h1 .subtitle {
+        padding-bottom: 0.5rem;
+        font-size: 2.5rem;
+    }
+
+    .text {
+        padding-bottom: 0.5rem;
+        font-size: 24px;
+    }
+
+    .btn.elastic {
+        font-size: 1.2rem;
+    }
+
+    #container {
+    padding-top: 1rem;
+    display: inline-block;
+    }
+
+    .banner {
+        width: 100%;
+    }
+
+    nav {
+        display: inline;
+    }
+    
+    nav ul {
+        display: flex;
+        justify-content: space-around;
+        padding: 0 0 8px 0;
+    }
+
+    nav li {
+        padding: 8px;
+    }
+
+    nav a {
+        font-size: 18px;
+    }
+    
+    .page_projects {
+        padding: 1.5em 0px;
+    }
+
+    .all_projects {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .page_projects .subtitle {
+        text-align: center;
+        padding-bottom: 1.5rem;
+    }
+
+    .baloon2 {
+        padding-bottom: 1.1rem;
+    }
+
+    .projeto_cordel, .projeto_apeperia, .your_project1 {
+        width: 90vw;
+        max-width: 350px;
+    }
+
+    .text_projects {
+        font-size: 20px;
+    }
+
+    .page_collaboration {
+       padding: 1.5em 8px 1.5em 8px;
+    }
+
+    .page_collaboration .subtitle {
+        width: auto;
+        padding-bottom: 1.5rem;
+    }
+
+    .all_apresentation {
+        padding: 0;
+        display: inline-block;
+    }
+
+    .apresentation1 {
+        display: flex;
+        flex-direction: row;
+        padding: 0 2rem 1rem 2rem;
+    }
+
+    .apresentation2 {
+        display: flex;
+        flex-direction: row-reverse;
+        padding: 0 2rem 1rem 2rem;
+    }
+
+    .apresentation1 .borda {
+        margin-right: 16px;
+    }
+
+    .apresentation2 .borda {
+        margin-left: 16px;
+    }
+
+    .text_perfil1 {
+        display: flex;
+        align-items: center;
+        font-size: 18px;
+    }
+
+    footer {
+        padding: 1.5rem 0;
+    }
+
+    footer img {
+        max-width: 35%;
+    }
+
+    .copyright {
+        padding-top: 0.75rem;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    header, .nav, .homepage, .page_projects, .all_projects, .page_collaboration {
+        width: auto;
+    }
+
+    .logo {
+        position: static;
+        width: 60%;
+        max-width: 300px;
+        margin-top: 0;
+    }
+
+    /* nav ul {
+        display: flex;
+        justify-content: space-around;
+        padding: 0 0 8px 0;
+    } */
+
+    h1 {
+        text-align: center;
+    }
+
+    h1 .title {
+        font-size: 5rem;
+    }
+
+    .nav {
+        display: inline;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: space-around;
+        padding: 0 0 8px 0;
+    }
+
+    .subtitle {
+        text-align: center;
+    }
+
+    h1 .subtitle {
+        font-size: 2.5rem;
+    }
+
+    .banner {
+        width: 40%;
+    }
+
+    .btn.elastic {
+        font-size: 1.2rem;
+    }
+
+    .homepage {
+        padding: 3em 0.5em 3em 0.5em;
+    }
+
+    footer img {
+        max-width: none;
+        max-height: 10%;
+        width: 15%;
+    }
+}
