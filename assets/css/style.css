@@ -303,7 +303,7 @@ textarea{
     }
     .container {
         width: 80%;
-        height: 75%;  
+        height: 56rem;  
         margin-top: 12rem;    
     }
     .input-group {    
@@ -356,7 +356,7 @@ textarea{
     }
     .container {
         width: 90%;
-        height: 80%;  
+        height: 56rem;  
         margin-top: -3rem;  
         padding-bottom: 2rem;  
         padding-top: 8rem; 
