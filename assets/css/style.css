@@ -425,7 +425,7 @@ textarea{
         margin-left: 3%;
     } 
 }
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 395px) {
     .dropdown.hover{
         margin-left: 1%;
         margin-top: -25rem;
@@ -506,6 +506,88 @@ textarea{
     } 
 }
 
+@media screen and (max-width: 365px) {
+    .dropdown.hover{
+        margin-left: 1%;
+        margin-top: -22rem;
+       
+    }
+    .container {
+        width: 90%;
+        height: 125%;  
+        margin-top: 13rem;  
+        padding-bottom: 2rem;  
+        padding-top: 6.2rem; 
+    }
+    .input-group {    
+        flex-direction: column;
+        z-index: 5;
+        padding-right: 2rem;
+        max-height: 40rem; 
+        flex-wrap: nowrap;
+        width: 100%;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .input-box {
+    margin-left: 5px;
+    }
+    .gender-inputs {
+        margin-top: 2rem;
+    }
+    .gender-group {
+        flex-direction: column;
+    }
+    .gender-title h6 {
+        margin: 0;
+    }
+    .gender-input {
+        margin-top: 0.5rem;
+    }
+    .send-button{
+        max-width: 5rem;
+        display: flex;
+        margin-bottom: 0.5rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-top: -3rem;
+    }
+    textarea{
+        width: 100%;
+    }
+    h1{
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-top: 1rem;
+        margin-bottom: -1rem;
+    }
+    .dropdown a {
+        display: block;
+        padding: 0 0 0 10px;
+        text-decoration: none;
+        line-height: 22px;
+        font-size: 1em;
+        font-weight: bold;
+        color: #ffffff;
+        background-color: #000000;
+        margin-top: -0.3rem;
+        
+      }
+      .dropdown ul {
+        list-style-type: none;
+        display: block;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        width: 50%;
+        box-shadow: 0 6px 5px -5px #6d14cc00;
+        overflow: hidden;
+        border-radius: 0 0 8px 8px;
+        z-index: 9;
+        margin-top: -4%;
+        margin-left: 3%;
+    } 
+}
 @media screen and (max-width: 375px) {
     .dropdown.hover{
         margin-left: 1%;
@@ -514,10 +596,10 @@ textarea{
     }
     .container {
         width: 90%;
-        height: 138%;  
+        height: 133%;  
         margin-top: 13rem;  
         padding-bottom: 2rem;  
-        padding-top: 8rem; 
+        padding-top: 6.2rem; 
     }
     .input-group {    
         flex-direction: column;
