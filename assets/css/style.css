@@ -358,6 +358,9 @@ textarea{
 
 @media screen and (max-width: 1064px) {
     
+    body {
+        display: inline-block;
+    }
     .container {
         width: 80%;
         height: 56rem;
