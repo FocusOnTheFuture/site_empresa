@@ -1,6 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&family=Open+Sans:wght@300;400;500;600&display=swap');
 
+:root {
+    
+    
+    --test-color-principal: #ffffff;
+    --test-color-principal1: #030abc;
+    --test-color-principal2: #ffffff;
 
+    --title-principal-size: 16px;
+    --title-secundary-size: 14px;
+
+    --montserrat: "Montserrat", sans-serif;
+}
 /*menu
 .dropdown {
     width: 230px;
