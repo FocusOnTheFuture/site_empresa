@@ -148,7 +148,11 @@ nav a:hover {
     font-family: 'Inter', sans-serif;
 }
 body{
+<<<<<<< HEAD
     background-image: url(bg-dark-mode.jpg);
+=======
+    background-image: url(../img/bg-dark-mode.jpg);
+>>>>>>> af130d7ab4e6aa69133266f7db1e8d1c58facfe6
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
