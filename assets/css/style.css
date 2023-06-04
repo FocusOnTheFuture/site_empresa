@@ -323,6 +323,22 @@ textarea{
 .input-mensage textarea:hover{
     background-color: #00000000;
 }
+footer img{
+    max-height: 10%;
+    width: 150px;
+}
+footer {
+    /* background: rgb(76, 76, 76); */
+    text-align: center;
+    padding: 40px 0;
+}
+
+.copyright {
+    font-size: 13px;
+    padding-top: 1.25rem;
+    color: var(--background-secundary);
+    text-align: center;
+  }
 
 @media screen and (max-width: 1951px) {
     .input-box{
