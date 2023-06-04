@@ -159,7 +159,7 @@ body{
     width: 80%;
     height: 80vh;
     display: flex;
-    margin: 0 auto;
+    margin: auto;
 }
 
 .form-image {
@@ -331,7 +331,7 @@ textarea{
     }    
 }
 
-@media screen and (max-width: 1330px) {
+@media screen and (max-width: 1500px) {
     
     .form-image {
         display: none;
@@ -346,6 +346,7 @@ textarea{
         border-radius: 20px 20px 20px 20px;
     }
     .send-button{
+        margin-top: -2rem;
         width: 100%;
     }
     .input-box{
