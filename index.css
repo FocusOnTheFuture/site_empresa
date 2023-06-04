@@ -241,6 +241,7 @@ img.your_project1{
     flex-direction: column;
     text-align: center;
     padding: 0rem 1.5rem;
+    width: 50%;
 }
 
 .perfil {
@@ -281,6 +282,7 @@ img.your_project1{
     flex-direction: column;
     text-align: center;
     padding: 0rem 1.5rem;
+    width: 50%;
 }
 
 .text_perfil2 {
@@ -487,6 +489,7 @@ nav a:hover {
 
     .apresentation1, .apresentation2 {
         padding: 0 0 1rem 0;
+        width: 90vw;
     }
 
     footer {
@@ -629,12 +632,14 @@ nav a:hover {
         display: flex;
         flex-direction: row;
         padding: 0 2rem 1rem 2rem;
+        width: 90vw;
     }
 
     .apresentation2 {
         display: flex;
         flex-direction: row-reverse;
         padding: 0 2rem 1rem 2rem;
+        width: 90vw;
     }
 
     .apresentation1 .borda {
