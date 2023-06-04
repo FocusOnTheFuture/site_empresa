@@ -352,6 +352,7 @@ footer {
         display: none;
     }
     .container {
+        height: 50rem;
         width: 50%;
         margin-bottom: 5rem;  
                 
@@ -420,6 +421,11 @@ footer {
     h1{
         margin-left: 1rem;
         margin-right: 1rem;
+    }
+    footer {
+        /* background: rgb(76, 76, 76); */
+        text-align: center;
+        margin-top: 7rem;
     }
     
 }
