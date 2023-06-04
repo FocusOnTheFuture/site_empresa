@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&family=Open+Sans:wght@300;400;500;600&display=swap');
 
 :root {
-    
+    --white: #edeff7;
+    --background-secundary: #e1e2be;
     
     --test-color-principal: #ffffff;
     --test-color-principal1: #030abc;
@@ -93,9 +94,6 @@ header {
     margin: 0 auto;
     background-color: transparent;
 }
-section {
-    /* background-color: var(--background-secundary); */
-}
 
 nav {
     width: 940px;
@@ -141,7 +139,7 @@ nav a:hover {
 .banner:hover {
     opacity: 0.6;
   }
-  
+
 *{
     padding: 0;
     margin: 0;
@@ -329,6 +327,12 @@ textarea{
     .input-box{
         width: 98%;
     }    
+    body{
+        background-image: url(/assets/img/bg-dark-mode.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
 }
 
 @media screen and (max-width: 1500px) {
@@ -354,6 +358,12 @@ textarea{
     }
     textarea{
         width: 97%;
+    }
+    body{
+        background-image: url(/assets/img/bg-dark-mode.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
     }
 }
 
@@ -405,6 +415,12 @@ textarea{
     h1{
         margin-left: 1rem;
         margin-right: 1rem;
+    }
+    body{
+        background-image: url(/assets/img/bg-dark-mode.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
     }
     
 }
@@ -458,6 +474,12 @@ textarea{
         margin-left: 1rem;
         margin-right: 1rem;
         margin-bottom: -2rem;
+    }
+    body{
+        background-image: url(/assets/img/bg-dark-mode.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
     }
     
     
