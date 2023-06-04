@@ -95,6 +95,7 @@ header {
     background-color: transparent;
 }
 
+
 nav {
     width: 940px;
     margin: 0 auto;
@@ -147,7 +148,7 @@ nav a:hover {
     font-family: 'Inter', sans-serif;
 }
 body{
-    background-image: url(/assets/img/bg-dark-mode.jpg);
+    background-image: url(/imagens/you_project.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -327,12 +328,6 @@ textarea{
     .input-box{
         width: 98%;
     }    
-    body{
-        background-image: url(/assets/img/bg-dark-mode.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center;
-    }
 }
 
 @media screen and (max-width: 1500px) {
@@ -358,12 +353,6 @@ textarea{
     }
     textarea{
         width: 97%;
-    }
-    body{
-        background-image: url(/assets/img/bg-dark-mode.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center;
     }
 }
 
@@ -415,12 +404,6 @@ textarea{
     h1{
         margin-left: 1rem;
         margin-right: 1rem;
-    }
-    body{
-        background-image: url(/assets/img/bg-dark-mode.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center;
     }
     
 }
@@ -474,12 +457,6 @@ textarea{
         margin-left: 1rem;
         margin-right: 1rem;
         margin-bottom: -2rem;
-    }
-    body{
-        background-image: url(/assets/img/bg-dark-mode.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center;
     }
     
     
