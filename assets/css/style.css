@@ -483,5 +483,42 @@ footer {
     header{
         margin-top: 2rem;
     }
-    
+    body{ 
+        display: block;
+    }
+    header, .nav {
+        width: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .logo {
+        position: static;
+        width: 60%;
+        margin: 0px 0px 1rem 0px;
+    }
+
+    nav {
+        height: auto;
+        margin-top: 1rem;
+        display: inline;
+        
+    }
+    nav a{
+        font-size: 18px;
+    }
+       
+    nav ul {
+        display: flex;
+        justify-content: space-around;
+        padding: 0 0 4px 0;
+    }
+    nav li {
+        display: inline;
+        padding: 2px;
+        margin-top: 1.5rem;
+        margin-bottom: 1rem;
+    }
 }
