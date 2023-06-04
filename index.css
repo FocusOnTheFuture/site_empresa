@@ -74,7 +74,8 @@ main {
     background-image: url(./imagens/bg-dark-mode.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
+    background-position:center center;
+    background-attachment: fixed;
 }
 
 .homepage{

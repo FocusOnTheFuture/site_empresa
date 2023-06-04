@@ -328,8 +328,7 @@ textarea{
 @media screen and (max-width: 1951px) {
     .input-box{
         width: 98%;
-    }
-    
+    }    
 }
 
 @media screen and (max-width: 1330px) {
@@ -457,3 +456,23 @@ textarea{
     }
     
 }
+@media screen and (min-width: 881px) and (max-width: 1024px) {
+    header, .nav, .homepage, .page_projects, .all_projects, .page_collaboration {
+        width: auto;
+    }
+
+    .logo {
+        position: static;
+        width: 60%;
+        max-width: 300px;
+        margin-top: 0;
+    }
+    .nav {
+        display: inline;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: space-around;
+        padding: 0 0 8px 0;
+    }}
