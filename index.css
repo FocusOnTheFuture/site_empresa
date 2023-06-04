@@ -36,8 +36,8 @@ nav {
 
 .logo {
     position: absolute;
-    margin-top: 2.5rem;
-    width: 300px;
+    margin-top: 3rem;
+    width: 250px;
     height: auto;
 }
 
@@ -349,10 +349,8 @@ nav a:hover {
     background-color: var(--test-color-principal1);
   }
   footer img{
-    max-width:12%;
-    max-height:10%;
-    width: auto;
-    height: auto;
+    max-height: 10%;
+    width: 150px;
   }
 
   .baloon1:hover {
@@ -396,7 +394,7 @@ nav a:hover {
     .logo {
         position: static;
         width: 60%;
-        margin-top: 0;
+        margin: 16px 0px;
     }
 
     nav {
@@ -496,7 +494,8 @@ nav a:hover {
     }
 
     footer img {
-        max-width: 35%;
+        width: 25%;
+        max-width: 100px;
     }
 
     .copyright {
@@ -516,8 +515,8 @@ nav a:hover {
     .logo {
         position: static;
         width: 60%;
-        max-width: 300px;
-        margin-top: 0;
+        max-width: 250px;
+        margin: 16px 0px;
     }
 
     nav {
@@ -657,7 +656,8 @@ nav a:hover {
     }
 
     footer img {
-        max-width: 25%;
+        width: 21%;
+        max-width: 150px
     }
 
     .copyright {
@@ -673,8 +673,8 @@ nav a:hover {
     .logo {
         position: static;
         width: 60%;
-        max-width: 300px;
-        margin-top: 0;
+        max-width: 250px;
+        margin: 16px 0px;
     }
 
     /* nav ul {
@@ -723,8 +723,7 @@ nav a:hover {
     }
 
     footer img {
-        max-width: none;
         max-height: 10%;
-        width: 15%;
+        width: 150px;
     }
 }
