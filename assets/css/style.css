@@ -147,7 +147,7 @@ nav a:hover {
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
 }
-#body{
+body{
     background-image: url(bg-dark-mode.jpg);
     background-repeat: no-repeat;
     background-size: cover;
