@@ -17,7 +17,7 @@ body {
     background: #101728;
 }
 
-/*menu*/
+/*menu
 .dropdown {
     width: 230px;
     display: inline-block;
@@ -262,7 +262,7 @@ textarea{
     background-color: #00000000;
 }
 
-@media screen and (max-width: 1950px) {
+@media screen and (max-width: 1951px) {
     .input-box{
         width: 98%;
     }
@@ -270,9 +270,7 @@ textarea{
 }
 
 @media screen and (max-width: 1330px) {
-    .dropdown.hover{
-        margin-left: -20%;
-    }
+    
     .form-image {
         display: none;
     }
@@ -296,11 +294,7 @@ textarea{
 }
 
 @media screen and (max-width: 1064px) {
-    .dropdown.hover{
-        margin-left: 1%;
-        margin-top: -35rem;
-       
-    }
+    
     .container {
         width: 80%;
         height: 56rem;  
@@ -349,22 +343,7 @@ textarea{
 }
 
 @media screen and (max-width: 440px) {
-    .dropdown.hover{
-        margin-left: 1%;
-        margin-top: -28rem;
-       
-    }
-    .dropdown a {
-        display: block;
-        padding: 0 0 0 10px;
-        text-decoration: none;
-        line-height: 40px;
-        font-size: 2em;
-        font-weight: bold;
-        color: #ffffff;
-        background-color: #000000;
-        
-      }
+    .
     .container {
         width: 90%;
         height: 56rem;  
