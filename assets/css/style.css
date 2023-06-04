@@ -427,7 +427,7 @@ footer {
 @media screen and (max-width: 440px) {
     .container {
         width: 90%;
-        height: 60rem;  
+        height: 90%; 
         margin-top: -3rem;  
         padding-bottom: 10rem;  
         padding-top: 3rem; 
@@ -475,5 +475,13 @@ footer {
         margin-bottom: -2rem;
     }
     
+    footer {
+        /* background: rgb(76, 76, 76); */
+        text-align: center;
+        margin-top: 27rem;
+    }
+    header{
+        margin-top: 2rem;
+    }
     
 }
