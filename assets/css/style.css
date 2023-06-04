@@ -338,6 +338,7 @@ textarea{
     }
     .container {
         width: 50%;
+        margin-bottom: 5rem;  
                 
     }
     .form {
@@ -359,8 +360,8 @@ textarea{
     
     .container {
         width: 80%;
-        height: 56rem;  
-        margin-top: 12rem;    
+        height: 56rem;
+        margin-bottom: 5rem;  
     }
     .input-group {    
         flex-direction: column;
@@ -401,7 +402,7 @@ textarea{
         margin-left: 1rem;
         margin-right: 1rem;
     }
-        
+    
 }
 
 @media screen and (max-width: 440px) {
@@ -409,7 +410,7 @@ textarea{
         width: 90%;
         height: 56rem;  
         margin-top: -3rem;  
-        padding-bottom: 2rem;  
+        padding-bottom: 5rem;  
         padding-top: 8rem; 
     }
     .input-group {    
@@ -455,24 +456,5 @@ textarea{
         margin-bottom: -2rem;
     }
     
+    
 }
-@media screen and (min-width: 881px) and (max-width: 1024px) {
-    header, .nav, .homepage, .page_projects, .all_projects, .page_collaboration {
-        width: auto;
-    }
-
-    .logo {
-        position: static;
-        width: 60%;
-        max-width: 300px;
-        margin-top: 0;
-    }
-    .nav {
-        display: inline;
-    }
-
-    nav ul {
-        display: flex;
-        justify-content: space-around;
-        padding: 0 0 8px 0;
-    }}

@@ -1,103 +1,88 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&family=Open+Sans:wght@300;400;500;600&display=swap');
 
+:root {
+  --white: #edeff7;
+  --background-secundary: #e1e2be;
+  
+  --test-color-principal: #ffffff;
+  --test-color-principal1: #030abc;
+  --test-color-principal2: #ffffff;
+
+  --title-principal-size: 16px;
+  --title-secundary-size: 14px;
+
+  --montserrat: "Montserrat", sans-serif;
+}
+header {
+  border-radius: 16px;
+  width: 940px;
+  margin: 0 auto;
+  background-color: transparent;
+}
+section {
+  /* background-color: var(--background-secundary); */
+}
+
+nav {
+  width: 940px;
+  margin: 0 auto;
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: right;
+  height: 168px;
+}
+
+.logo {
+  position: absolute;
+  margin-top: 2.5rem;
+  width: 300px;
+  height: auto;
+}
+
+nav ul {
+  /* background-color: rgb(71, 55, 55); */
+  border-radius: 16px;
+  padding: 8px;
+}
+
+nav li {
+  display: inline;
+  padding: 16px;
+}
+
+.nav_link{
+  color: var(--test-color-principal);
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 24px;
+}
+nav a:hover {
+  color: #6d14cc;
+  text-decoration: underline;
+}
+
+.banner:hover {
+  opacity: 0.6;
+}
 *{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
 }
-
-
-body {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #101728;
+body{
+  background-image: url(/imagens/bg-dark-mode.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin-top: -17rem;
 }
-
-/*menu*/
-.dropdown {
-    width: 230px;
-    display: inline-block;
-    margin-top: -35.75rem;
-    margin-left: -9%;
-    position: fixed;
-    float: right;
-    font-family: 'Inter', sans-serif;
-    transition: all 2s; 
-      
-  }
-  .dropdown ul {
-      list-style-type: none;
-      display: block;
-      margin: 0;
-      padding: 0;
-      position: absolute;
-      width: 100%;
-      box-shadow: 0 6px 5px -5px #6d14cc00;
-      overflow: hidden;
-      border-radius: 0 0 8px 8px;
-      z-index: 9;
-      
-  }
-  .dropdown a {
-    display: block;
-    padding: 0 0 0 10px;
-    text-decoration: none;
-    line-height: 40px;
-    font-size: 2em;
-    font-weight: bold;
-    color: #ffffff;
-    background-color: #00000000;
-    
-  }
-  .dropdown li {
-    height: 0;
-    overflow: hidden;
-  }
-  .dropdown li:first-child a {
-    border-radius: 8px 8px 0 0;
-  }
-  .dropdown li:last-child a {
-    border-radius: 0 0 2px 2px;
-  }
-  .dropdown li:first-child a::before {
-    content: "";
-    display: block;
-    position: absolute;
-    width: 0;
-    height: 0;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    border-bottom: 12px solid #00000000;
-    margin: -9px 0 0 15px;
-  }
-  .dropdown .primeiro-item       { background:transparent; color: #ffffff; }
-  .dropdown .primeiro-item:hover { background:transparent; color: #909092; }
-  .dropdown a:hover, .dropdown.toggle > label:hover, .dropdown.toggle > input:checked ~ label {
-    background-color: #00000000;
-    color: #909092;
-  }
-  .dropdown > a:hover::after, .dropdown.toggle > label:hover::after, .dropdown.toggle > input:checked ~ label::after {
-    border-top-color: #AAA;
-  }
-  .dropdown li:first-child a:hover::before {
-    border-bottom-color: #00c1ec00;
-  }
-  .dropdown.hover:hover li, .dropdown.toggle > input:checked ~ ul li {          
-    height: auto;
-  }
-  .dropdown.hover:hover li:first-child, .dropdown.toggle > input:checked ~ ul li:first-child {
-    padding-top: 15px;
-  }
-/*fim do menu*/  
-
 .container {
-    width: 80%;
-    height: 80vh;
-    display: flex;
+  width: 80%;
+  height: 80vh;
+  display: flex;
+  margin: 0 auto;
 }
 
 .form-image {
@@ -108,7 +93,7 @@ body {
     background-color: #6d14cc;
     padding: 1rem;
     border-radius: 20px 0px 0px 20px;
-    box-shadow: #0011ff -30px 20px 90px 1px;
+    box-shadow: #818181 -30px 20px 90px 1px;
 }
 
 .form-image img {
@@ -126,7 +111,7 @@ body {
     background-color: #ffffffde;
     padding: 10rem;
     border-radius: 0px 20px 20px 0px;
-    box-shadow: 40px 20px 90px 1px #0011ff;
+    box-shadow: 40px 20px 90px 1px #aaaaaa;
 }
 
 .form-header {
@@ -163,9 +148,7 @@ h1{
     margin-left: -10%;
 }
 @media screen and (max-width: 1330px) {
-    .dropdown.hover{
-        margin-left: -22%;
-    }
+    
     .form-image {
         display: none;
     }
@@ -182,13 +165,10 @@ h1{
 }
 
 @media screen and (max-width: 1064px) {
-    .dropdown.hover{
-        margin-left: 1%;
-    }
+    
     .container {
         width: 90%;
-        height: 70%;  
-        margin-top: 7rem;         
+        height: 70%;           
     }
     .form{
         width: 100%;
@@ -201,13 +181,10 @@ h1{
     }
 }
 @media screen and (max-width: 630px){
-  .dropdown.hover{
-    margin-left: 1%;
-}
+  
 .container {
     width: 90%;
-    height: 72%;  
-    margin-top: 7rem;         
+    height: 72%;         
 }
 .form{
     width: 100%;
