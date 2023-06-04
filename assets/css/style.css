@@ -148,12 +148,18 @@ nav a:hover {
     font-family: 'Inter', sans-serif;
 }
 body{
-    background-image: url(/imagens/bg-dark-mode.jpg);
+    background-image: url(./imagens/bg-dark-mode.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
 }
-
+.all_page {
+    background-image: url(./imagens/bg-dark-mode.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center center;
+    
+}
 .container {
     width: 80%;
     height: 80vh;
