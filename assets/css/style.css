@@ -1,22 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&family=Open+Sans:wght@300;400;500;600&display=swap');
 
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
+:root {
+    --white: #edeff7;
+    --background-secundary: #e1e2be;
+    
+    --test-color-principal: #ffffff;
+    --test-color-principal1: #030abc;
+    --test-color-principal2: #ffffff;
+
+    --title-principal-size: 16px;
+    --title-secundary-size: 14px;
+
+    --montserrat: "Montserrat", sans-serif;
 }
-
-
-body {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #101728;
-}
-
 /*menu
 .dropdown {
     width: 230px;
@@ -92,11 +88,78 @@ body {
     padding-top: 15px;
   }
 /*fim do menu*/  
+header {
+    border-radius: 16px;
+    width: 940px;
+    margin: 0 auto;
+    background-color: transparent;
+}
+section {
+    /* background-color: var(--background-secundary); */
+}
+
+nav {
+    width: 940px;
+    margin: 0 auto;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: right;
+    height: 168px;
+}
+
+.logo {
+    position: absolute;
+    margin-top: 2.5rem;
+    width: 300px;
+    height: auto;
+}
+
+nav ul {
+    /* background-color: rgb(71, 55, 55); */
+    border-radius: 16px;
+    padding: 8px;
+}
+
+nav li {
+    display: inline;
+    padding: 16px;
+}
+
+.nav_link{
+    color: var(--test-color-principal);
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 24px;
+}
+nav a:hover {
+    color: #6d14cc;
+    text-decoration: underline;
+}
+
+.banner:hover {
+    opacity: 0.6;
+  }
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+body{
+    background-image: url(/imagens/bg-dark-mode.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
 
 .container {
     width: 80%;
     height: 80vh;
     display: flex;
+    margin: 0 auto;
 }
 
 .form-image {
@@ -107,7 +170,7 @@ body {
     background-color: #6d14cc;
     padding: 1rem;
     border-radius: 20px 0px 0px 20px;
-    box-shadow: #0011ff -30px 20px 90px 1px;
+    box-shadow: #ffffffa8 -30px 20px 90px 1px;
 }
 
 .form-image img {
@@ -125,7 +188,7 @@ body {
     background-color: #ffffffde;
     padding: 10rem;
     border-radius: 0px 20px 20px 0px;
-    box-shadow: 40px 20px 90px 1px #0011ff;
+    box-shadow: 40px 20px 90px 1px #9596a0;
 }
 p{
     font-size: 20px;
